@@ -1,0 +1,85 @@
+p {
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: "Noto Sans JP", "sans-serif";
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  display: flex;
+  /* flex-direction: row-reverse; */
+  /* text-align: left; */
+  /* align-items: center; */
+}
+
+.menu {
+  /* width: 20%; */
+  flex-basis: 30%;
+  background-color: #dadada;
+  padding: 30px;
+  position: fixed;
+  top: 0;
+  height: 1000px;
+  /* border: 1px solid #333; */
+  /* margin: 10px; */
+}
+
+.menu_item {
+  background-color: #dadada;
+  margin: 30px;
+  font-size: 30px;
+}
+
+.main {
+  /* width: 1000px; */
+  /* width: auto; */
+  /* margin: 0 auto; */
+  /* text-align: center; */
+  flex-basis: 70%;
+  background-color: #dadada;
+}
+
+img.top {
+  /* width: 1110px; */
+  /* height: 700px; */
+}
+
+p.message {
+  display: inline-block;
+  /* width: 700px; */
+  line-height: 1cm;
+  /* text-align: center; */
+}
+
+.two {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 1110px; */
+}
+
+img.man {
+  /* width: 1110px; */
+  /* height: 700px; */
+}
+
+.for {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 1110px; */
+}
+
+.brand {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  /* width: 100px; */
+}
